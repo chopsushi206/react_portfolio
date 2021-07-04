@@ -1,10 +1,11 @@
 import React from "react";
 import "./style.css";
+import Nav from "../Nav";
 
 function Header() {
   return (
     <header className="header">
-      <span>Header</span>
+      <Nav />
     </header>
   );
 }
