@@ -3,8 +3,8 @@ import React from "react";
 function About() {
   return (
     <div>
-      <h2 id="about" class="title">
-        About
+      <h2 id="about" className="title">
+        Who Am I?
       </h2>
       I'm an aspiring full stack developer! Even though I haven't been in the
       industry long, I am constantly working to expand my skill set and
