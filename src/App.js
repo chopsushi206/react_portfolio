@@ -6,16 +6,25 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Skills from "./pages/Skills";
 import Contact from "./pages/Contact";
+import bg from "./images/LiHua.svg";
 
 function App() {
   return (
     <Router>
       <Header />
-      <Route exact path="/about" component={About} />
-      <Route exact path="/projects" component={Projects} />
-      <Route exact path="/skills" component={Skills} />
-      <Route exact path="/contact" component={Contact} />
-      <Footer />
+      <div
+        style={{
+          backgroundImage: "url(" + bg + ")",
+          backgroundRepeat: "no-repeat",
+          height: "100vh",
+        }}
+      >
+        <Route exact path="/about" component={About} />
+        <Route exact path="/projects" component={Projects} />
+        <Route exact path="/skills" component={Skills} />
+        <Route exact path="/contact" component={Contact} />
+        <Footer />
+      </div>
     </Router>
   );
 }
