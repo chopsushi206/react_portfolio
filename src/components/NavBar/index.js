@@ -17,12 +17,12 @@ function NavBar() {
   return (
     <div>
       <Navbar color="faded bg-dark mb-3" dark>
-        <NavbarBrand href="/" className="mr-auto">
+        <NavbarBrand href="/" className="mr-auto ms-3">
           PORTFOLIO
         </NavbarBrand>
-        <NavbarToggler onClick={toggleNavbar} className="mr-2" />
+        <NavbarToggler onClick={toggleNavbar} className="me-3" />
         <Collapse isOpen={!collapsed} navbar>
-          <Nav navbar>
+          <Nav className="ms-5" navbar>
             <NavItem>
               <NavLink
                 href="/about"

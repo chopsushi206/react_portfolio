@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div>
+    <div className="container flex-column align-items-between justify-content-center">
       <h2 id="about" className="title">
         Who Am I?
       </h2>

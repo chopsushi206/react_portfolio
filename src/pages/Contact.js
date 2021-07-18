@@ -6,6 +6,13 @@ function Contact() {
     <div className="container flex-column align-items-between justify-content-center">
       <>
         <div className="row d-flex justify-content-center mb-5">
+          <h2>Contact</h2>
+          <p>
+            Please use the links below in order to navigate to my social media,
+            or email me. My Resume is linked for download as well.
+          </p>
+        </div>
+        <div className="row d-flex justify-content-center mb-5">
           <div className="col-6 col-sm-3 d-flex justify-content-center">
             <a href="https://github.com/chopsushi206">
               <i className="fab fa-github-alt fa-3x"></i>
