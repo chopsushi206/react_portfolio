@@ -9,23 +9,26 @@ import {
   CardImg,
 } from "reactstrap";
 
-function Project(projects) {
+function Project(project) {
+  console.log(project);
   return (
     <div>
-      <Card>
+      <Card className="mb-3">
         <CardHeader>
-          <a href={projects.liveApp} target="_blank">
-            {projects.title}
+          <a href={project.project.liveApp} target="_blank">
+            {project.project.title}
           </a>
         </CardHeader>
         <CardBody>
           <CardImg
             width="300px"
-            src={projects.image}
+            src={project.project.image}
             alt="Project Preview"
           ></CardImg>
-          <CardText>{projects.description}</CardText>
-          <a href={projects.repo}>View Repo</a>
+          <CardText>{project.project.description}</CardText>
+          <a href={project.project.repo} target="_blank">
+            View Repo
+          </a>
         </CardBody>
         <CardFooter>Footer</CardFooter>
       </Card>

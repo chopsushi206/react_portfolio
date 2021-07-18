@@ -16,7 +16,7 @@ function NavBar() {
 
   return (
     <div>
-      <Navbar color="faded bg-dark" dark>
+      <Navbar color="faded bg-dark mb-3" dark>
         <NavbarBrand href="/" className="mr-auto">
           PORTFOLIO
         </NavbarBrand>

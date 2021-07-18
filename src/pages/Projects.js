@@ -3,7 +3,7 @@ import { useState } from "react";
 import Project from "../components/Project";
 
 function Projects() {
-  const [projects] = useState([
+  const [projectList] = useState([
     {
       title: "Who's That Pokemon?",
       image: "../../images/pokemon.jpg",
@@ -23,7 +23,7 @@ function Projects() {
 
   return (
     <div className="container-md">
-      {projects.map((project, id) => {
+      {projectList.map((project, id) => {
         return <Project project={project} key={id} />;
       })}
     </div>
