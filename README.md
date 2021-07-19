@@ -13,7 +13,7 @@
 
   ## Description
 
-  [Live Deployment](##)
+  [Live Deployment](https://chopsushi206.github.io/react_portfolio/)
 
   Assignment was to re-render a copy of our portfolio using REACT. 
 
