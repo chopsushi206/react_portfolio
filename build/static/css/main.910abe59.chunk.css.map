@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/style.css"],"names":[],"mappings":"AAAA,EACI,UAAW,CACX,oBACJ,CAEA,QACI,eAAgB,CAChB,UACJ","file":"main.910abe59.chunk.css","sourcesContent":["a {\r\n    color:black;\r\n    text-decoration: none;\r\n}\r\n\r\na:hover {\r\n    font-weight:bold;\r\n    color: #333;\r\n}"]}
