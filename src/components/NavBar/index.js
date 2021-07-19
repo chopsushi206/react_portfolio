@@ -37,8 +37,8 @@ function NavBar() {
               </Link>
             </NavItem>
             <NavItem>
-              <NavLink
-                href="/projects"
+              <Link
+                to="/projects"
                 className={
                   window.location.pathname === "/projects"
                     ? "nav-link active"
@@ -46,11 +46,11 @@ function NavBar() {
                 }
               >
                 Projects
-              </NavLink>
+              </Link>
             </NavItem>
             <NavItem>
-              <NavLink
-                href="/skills"
+              <Link
+                to="/skills"
                 className={
                   window.location.pathname === "/skills"
                     ? "nav-link active"
@@ -58,11 +58,11 @@ function NavBar() {
                 }
               >
                 Skills
-              </NavLink>
+              </Link>
             </NavItem>
             <NavItem>
-              <NavLink
-                href="/contact"
+              <Link
+                to="/contact"
                 className={
                   window.location.pathname === "/contact"
                     ? "nav-link active"
@@ -70,7 +70,7 @@ function NavBar() {
                 }
               >
                 Contact
-              </NavLink>
+              </Link>
             </NavItem>
           </Nav>
         </Collapse>
