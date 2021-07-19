@@ -26,7 +26,7 @@ function NavBar() {
           <Nav className="ms-5" navbar>
             <NavItem>
               <Link
-                href="/about"
+                to="/about"
                 className={
                   window.location.pathname === "/about"
                     ? "nav-link active"
