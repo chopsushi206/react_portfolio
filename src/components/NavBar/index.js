@@ -8,6 +8,7 @@ import {
   NavItem,
   NavLink,
 } from "reactstrap";
+import { Link } from "react-router-dom";
 import "./style.css";
 
 function NavBar() {
@@ -24,7 +25,7 @@ function NavBar() {
         <Collapse isOpen={!collapsed} navbar>
           <Nav className="ms-5" navbar>
             <NavItem>
-              <NavLink
+              <Link
                 href="/about"
                 className={
                   window.location.pathname === "/about"
@@ -33,7 +34,7 @@ function NavBar() {
                 }
               >
                 About
-              </NavLink>
+              </Link>
             </NavItem>
             <NavItem>
               <NavLink
