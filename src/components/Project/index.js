@@ -9,7 +9,6 @@ function Project(project) {
       style={{ borderColor: "#333" }}
     >
       <CardHeader style={{ backgroundColor: "#c0c0c0", borderColor: "#333" }}>
-        >
         <a href={project.project.liveApp} target="_blank" rel="noreferrer">
           {project.project.title}
         </a>
